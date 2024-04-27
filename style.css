@@ -1,0 +1,132 @@
+body {
+    font-family: "Merriweather", serif;
+}
+.top-container{
+    background-color: #e4f9f5;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 200px;
+
+}
+.programmer{
+    color: #66bfbf;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+span{
+    text-decoration: underline;
+}
+h1{
+    font-family: "Lugrasimo", "cursive";
+    color: #66bfbf;
+    font-size: 3.5rem;
+    padding-bottom: 10px;
+}
+p{
+    font-family: "Montserat", "sans-serif";
+}
+.cloud-1{
+   margin-left: 350px;
+}
+.cloud-2{
+    margin-right: 350px;
+}
+.middle-container{
+    display:flex; 
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.profile-container {
+    text-align: center;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-between;
+    font-size: 1.2rem;
+    width: 30%;
+}
+.profile{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+
+}
+.profile-head{
+    color:#66bfbf;
+    font-size: 1.5rem;
+} 
+
+hr{
+    border:7px dotted #66bfbf;
+    border-top:0;
+    width: 20%;
+    margin-bottom: 50px;
+}
+.skill-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30%;
+
+}
+.skill-head{
+    color: #66bfbf;
+    font-size: 1.5rem;
+    margin:50px 0;
+}
+.skill-image {
+    height: 100px; 
+    width: 100px;
+    margin-right: 10px;
+    margin-top: 40px;
+}
+.card{
+    display: flex; 
+    height: 300px;
+    text-align:left;
+
+}
+.chilli {
+    border-radius: 50%;
+    height: 100px;
+        width: 100px;
+    margin-right: 10px;
+    background-color: red;
+    margin-top: 40px;
+}
+h5, h4{
+    color: #66bfbf;
+}
+.contact-container {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-between; 
+    align-items: center; 
+    text-align: center;
+    padding-bottom: 20px;
+    width: 30%;
+}
+button {
+    color: white; 
+    background-color: #66bfbf;
+    border-radius: 15px; 
+    padding: 7px;
+    border: 0;
+}
+footer{
+    background-color: #66bfbf;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+    
+}
+.footer-link {
+    display: flex; 
+    justify-content: space-between;
+    width: 30%;
+}
